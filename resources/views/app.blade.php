@@ -42,7 +42,7 @@
                         <a class="nav-link" href="{{url('/post')}}">Post</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('/author')}}">Author</a>
+                        <a class="nav-link" href="{{route('author')}}">Author</a>
                     </li>
                     @auth
 
